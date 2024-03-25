@@ -2,7 +2,7 @@
   "name": "test-cf-pages",
   "version": "1.0.0",
   "main": "src/index.js",
-  "author": "xiadd",
+  "author": "sphenhe",
   "license": "MIT",
   "type": "module",
   "devDependencies": {

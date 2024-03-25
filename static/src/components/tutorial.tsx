@@ -14,8 +14,8 @@ export default function Turorial() {
       <h2>开源地址</h2>
 
       <p className="text-lg">
-        <a href="https://github.com/xiadd/pastebin-worker/">
-          https://github.com/xiadd/pastebin-worker/
+        <a href="https://github.com/sphenhe/pastebin-worker/">
+          https://github.com/sphenhe/pastebin-worker/
         </a>
         ，欢迎使用和star，如果有问题可以直接提issue。
       </p>

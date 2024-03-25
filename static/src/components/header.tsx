@@ -55,7 +55,7 @@ export default function Header() {
       </div>
       <div className="flex flex-shrink-0 items-center">
         <a
-          href="https://github.com/xiadd/pastebin-worker"
+          href="https://github.com/sphenhe/pastebin-worker"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-ghost btn-sm hidden"
@@ -64,7 +64,7 @@ export default function Header() {
         </a>
 
         <a
-          href="https://t.me/zhixiao"
+          href="https://t.me/KevinLiu42"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-ghost btn-sm"
