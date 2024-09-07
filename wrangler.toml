@@ -2,24 +2,24 @@ name = "pastebin-worker"
 compatibility_date = "2023-10-30"
 compatibility_flags = ["nodejs_compat"]
 
-account_id = "516d0a360ccdea88dd79e9cf5d2bc3aa"
+account_id = "6605e69d09208b14b29c196be44dec5a"
 main = "src/index.ts"
 workers_dev = false
 
-# 如果不使用自定义域名，将下面的代码注释掉
-route = { pattern = "as.al", custom_domain = true }
-
 [vars]
 ENVIRONMENT = "production"
-BASE_URL = "https://as.al"
+BASE_URL = "https://pastebin.sphenhe.me"
 
 [site]
 bucket = "./static/dist"
 
+[[routes]]
+pattern = "pastebin.sphenhe.me"
+custom_domain = true
 
 [[r2_buckets]]
 binding = 'BUCKET'
-bucket_name = 'pastes'
+bucket_name = 'pastebins'
 
 [[d1_databases]]
 binding = "DB"
