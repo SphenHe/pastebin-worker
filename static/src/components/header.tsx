@@ -42,7 +42,7 @@ export default function Header() {
       </div>
       <div className="flex flex-shrink-0 items-center gap-4">
         <a
-          href="https://github.com/xiadd/pastebin-worker"
+          href="https://github.com/SphenHe"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-ghost btn-sm"
@@ -50,7 +50,7 @@ export default function Header() {
           <Github size={20} />
         </a>
 
-        <a href="mailto:xiadd0102@gmail.com">
+        <a href="mailto:admin@sphenhe.me">
           <Mail size={20} />
         </a>
 
